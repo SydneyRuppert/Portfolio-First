@@ -15,19 +15,21 @@
     <header class = "header">
          <a href = "#" class="logo">Sydney.</a>
         <!-- Maybe make this a link that takes to the about page -->
-    
+        <div class="bx bx-menu" id="menu-icon"></div>
         <nav class = "navbar">
-            <a href = "#">Home</a>
-            <a href = "#">About</a>
+            <a href = "#home">Home</a>
+            <a href = "#about">About</a>
             <a href = "#">Experience</a>
             <a href = "#">Projects</a>
             <a href = "#">Contact</a>
         </nav>   
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class = "home-content">
             <h1>Hi, I'm Sydney Ruppert.</h1>
-            <h3> Front End Developer</h3>
+            <div class="text-animate">
+                  <h3> Frontend Developer</h3>
+            </div>
             <p>
                 Overachieving sales representative and fiercely passionate Plant Biologist 
                 turned Front-End developer. A deep love for solving complex situations from a 
@@ -48,10 +50,30 @@
             <a href="#"><i class='bx bxl-linkedin'></i></a>
         </div>
         <div class="headshot">
-               <img src="Images/Linked IN Profile.jpg" alt="Headshot">
+               <img src="Images/Linked IN Profile.jpg" alt="Headshot" class="headshot">
         </div>
-     
-
+    </section>
+    <!-- About Section -->
+    <section class = "about" id="about">
+        <h2 class ="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="Images/bro-takes-photos-qgSRE0BOhB0-unsplash.jpg" alt="">
+            <span class ="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Frontend Developer</h3>
+            <P>                Overachieving sales representative and fiercely passionate Plant Biologist 
+                turned Front-End developer. A deep love for solving complex situations from a 
+                strategic perspective only further developed and honed through completing Coding 
+                Temple’s bootcamp of which I gained immense knowledge on the top languages in the 
+                industry. Excellent at time management which is evident through working multiple 
+                jobs  while successfully passing this course and using my drive and excitement 
+                for where this industry is going to pave my own path as a developer…To be the 
+                pioneer of my own programming future.</P>
+        </div>
+        <div class="btn-box">
+            <a href="#" class ="btn"> Read More</a>
+        </div>
     </section>
 </body>
 </html>
