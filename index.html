@@ -13,41 +13,41 @@
 </head>
 <body>
     <header class = "header">
-         <a href = "#" class="logo">Sydney.</a>
+         <a href = "#" class="logo">Sydney.<span class="animate" style = "--i:1;"><span></span></a>
         <!-- Maybe make this a link that takes to the about page -->
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style = "--i:2;"></span></div>
         <nav class = "navbar">
             <a href = "#home">Home</a>
             <a href = "#about">About</a>
-            <a href = "#">Experience</a>
-            <a href = "#">Projects</a>
-            <a href = "#">Contact</a>
+            <a href = "#education">Experience</a>
+            <a href = "#projects">Projects</a>
+            <a href = "#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style = "--i:2;"></span>
         </nav>   
     </header>
-    <section class="home" id="home">
+    <section class="home show-animate" id="home">
         <div class = "home-content">
-            <h1>Hi, I'm Sydney Ruppert.</h1>
+            <h1>Hi, I'm <span>Sydney Ruppert.</span><span class="animate" style = "--i:2;"></span></h1>
             <div class="text-animate">
                   <h3> Frontend Developer</h3>
+                  <span class="animate" style = "--i:3;"></span>
             </div>
             <p>
-                Overachieving sales representative and fiercely passionate Plant Biologist 
-                turned Front-End developer. A deep love for solving complex situations from a 
-                strategic perspective only further developed and honed through completing Coding 
-                Temple’s bootcamp of which I gained immense knowledge on the top languages in the 
-                industry. Excellent at time management which is evident through working multiple 
-                jobs  while successfully passing this course and using my drive and excitement 
-                for where this industry is going to pave my own path as a developer…To be the 
-                pioneer of my own programming future.
+                Skills include: HTML, CSS, Typescript and JavaScript
+                <span class="animate" style = "--i:4;"></span>
             </p>
             <div class ="btn-box">
-                <a href = "#">Hire Me</a>
-                <a href = "#">Let's Talk</a>
+                <a href = "https://www.linkedin.com/in/sydney-ruppert-radiatepositivity/">Hire Me</a>
+                <a href = "https://www.linkedin.com/in/sydney-ruppert-radiatepositivity/">Let's Talk</a>
+                <span class="animate" style = "--i:5;"></span>
             </div>
         </div>
         <div class="home-sci">
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/SydneyRuppert"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/sydney-ruppert-radiatepositivity/"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style = "--i:6;"></span>
         </div>
         <div class="headshot">
                <img src="Images/Linked IN Profile.jpg" alt="Headshot" class="headshot">
@@ -55,7 +55,7 @@
     </section>
     <!-- About Section -->
     <section class = "about" id="about">
-        <h2 class ="heading">About <span>Me</span></h2>
+        <h2 class ="heading">About <span>Me</span><span class="animate" style = "--i:1;"></span></h2>
         <div class="about-img">
             <img src="Images/bro-takes-photos-qgSRE0BOhB0-unsplash.jpg" alt="">
             <span class ="circle-spin"></span>
@@ -75,5 +75,223 @@
             <a href="#" class ="btn"> Read More</a>
         </div>
     </section>
+
+    <!-- Education and Experience Section -->
+    <section class="education" id="education">
+        <h2 class="heading"> My <span>Journey</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2023-2024</div>
+                            <h3>Coding Temple Bootcamp</h3>
+                            <p>
+                                ·        Developed web applications using Bootstrap, Flask and React<br>
+                                ·        Successfully utilized Firebase, Netlify, Insomnia and Render<br>
+                                ·        Learned JavaScript, Typescript, HTML, CSS, SQL and Python and used them in completing projects and web applications<br>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2016-2020</div>
+                            <h3>Bachelors Degree from North Carolina State University</h3>
+                            <p>
+                                ·        Majored in Plant Biology and minored in Horticulture
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2012-2016</div>
+                            <h3>IB Diploma from Mission Viejo High School</h3>
+                            <p>·        Graduated in the top 10% of class with a full IB Diploma</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2023-2024</div>
+                            <h3>Simulated Plant Collection Database - Coding Temple Capstone</h3>
+                            <p>
+                                ·        Designed and implemented a user-friendly interface using React to provide a seamless user experience for Plant Collectors and Conservationist alike to track their personal collections through taxonomy<br>
+                                ·        Developed a Flask server to handle API requests and integrate with the database and google auth to ensure that users data was protected and effectively recorded<br>
+                                ·        Created moving components in the project using framer-motion. A new skill I learned from purely watching YouTube videos in order to make my Project more captivating to the user<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2016-2020</div>
+                            <h3>Plant Biologist/Botanist - Missouri Botanical Garden</h3>
+                            <p>
+                                •	Efficiently runs 3 greenhouses with rare species from all across the world<br>
+                                •	Responsible for data collection on rare species which is done by daily research<br>
+                                •	Coordinates pollination with research department to reach goals for seed collection<br></p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2012-2016</div>
+                            <h3>Sales Representative - Surface Experts</h3>
+                            <p>
+                                ·        Surpassed all past sale records by 121% within first couple months during our off season<br>
+                                ·        Experienced in multi-thread outbound techniques including cold calling, cold emailing and using LinkedIn to create connections<br>
+                                ·        Increased new accounts by 23% in my territory in first quarter<br>
+                                ·        Collaborated closely with our technicians and had daily meetings with the manager of the technicians to ensure the best result for our customer <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2012-2016</div>
+                            <h3>Sales Representative - Renewal by Anderson</h3>
+                            <p>
+                                ·        Surpassed sales goals in first month at RBA and continue to surpass company set goals by 22%<br>
+                                ·        Optimized upselling customers and delivered 2.8 times the new prospects as preset goals<br>
+                                ·        Personally reached out to top performers in the first four months and attended top shows and conventions with the other top sales representatives.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2012-2016</div>
+                            <h3>Lab Technician - LabCorp</h3>
+                            <p>
+                                ·        Promoted to Acting Team Lead after 2 months due to increasing team efficiency and decreasing the number of old samples in storage by 40%<br>
+                                ·        Responsible for handling urgent emails that focused on lost samples, retrieving samples for retesting and samples that were possibly mislabeled<br>
+                                ·        Communicated with partnering labs supervisors when problems arose and strategized to quickly overcome obstacles.<br>
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2012-2016</div>
+                            <h3>Server/Hostess/Take-Out - P.F Chang's</h3>
+                            <p>
+                                ·        Lead Trainer for Hostess, ensuring attention to details and comprehensive understanding of the problem resolution techniques that are essential to the customers satisfaction<br>
+                                ·        Awarded Employee of the Month for outstanding leaderships skills and ability to assist over 100 customers a day during our busy holiday season<br>
+                                ·        Maintained scholarship over all 4 years while simultaneously balancing working full time and being part of a sorority.<br>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="skills" id="projects">
+        <div class="main-text" id="project">
+            <h2 class="heading">My <span>Projects</span></h2>
+
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h5>Plant Data Collector - React/TypeScript</h5>
+                        <p>This was my Capstone Project that I did as a student at Coding Temple.
+                            I had to combine an API with React and create a log in using google authenticator.
+                        </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h5>Theater Project - HTML/CSS</h5>
+                        <p>This is another project I did duing my time at Coding Temple. In this project we learned how to use more complex
+                            aspects of html.
+                        </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h5>Car Data Collector - Flask API</h5>
+                        <p>This was a project I made at coding temple that utilizes Flask as a basic API.
+                            This was also my first attempt at utilizing programs like Insomnia and Elephantsql.
+                        </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h5>Photo Gallery - Bootstrap</h5>
+                        <p>As my first Bootstrap website I had ever made, I was meant to recreate a simple and elegant
+                            photo gallery that my teacher at Coding Temple had showed the class. It is a simple and modern gallery of the great outdoors.
+                        </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sydney | All Rights Reserved.</p>
+        </div>
+    
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+        <script src="js/script.js"></script>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
