@@ -326,7 +326,7 @@ span{
 
 .btn-box .btns{
     display: inline-block;
-    width: 50em;
+    width: 50rem;
 }
 
 .btn-box .btns a::before {
@@ -440,6 +440,121 @@ span{
     font-size: 1.6rem;
     padding-top: .5rem;
 }
+/* portfolio section */
+/* 
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
+}
+
+.main-text h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+
+.main-text h2 span{
+    color: #223528;
+}
+
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(359px,auto));
+}
+
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.row img{
+    width:100%;
+    height:0;
+    background: linear-gradient(rgba(0,0,0,0),#586d60);
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+    
+}
+
+.layer h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.layer i{
+    color: #1e2621;
+    margin-top: 20px;
+    font-size: 20px;
+} */
+
+
+
+
+.wrap-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    margin-top: 2px;
+} 
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: white;
+
+}
+
+.grid-image {
+    object-fit: cover;
+    height: 60%;
+    max-width: 100%;
+}
+
+.grid-text {
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+.description {
+    text-align: center;
+    color: black;
+    font-size: medium;
+    padding: 5px;
+}
+
+.tag {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a {
+    color: rgb(222, 139, 222);
+    font-size: medium;
+}
+
+/* Contact section */
 
 .contact {
     min-height: auto;
@@ -640,6 +755,10 @@ span{
     .footer{
         padding: 2rem 4%;
     }
+
+
+
+
 }
 
 @media (max-width: 768px){
@@ -696,7 +815,9 @@ span{
         transform:translateX(0);
         transition-delay: .25s;
     }
+
 }
+
 
 @media (max-width:520px) {
     html{
@@ -715,6 +836,8 @@ span{
         width: 38px;
         height: 38px;
     }
+
+
 }
 
 @media (max-width:462px){
@@ -724,6 +847,42 @@ span{
 
     .education{
         padding:10rem 4% 5rem 5%;
+    }
+
+    .projects .portfolio .wrapper{
+        display: grid;
+        grid-template-columns: 100px ;
+        margin-top: 2px;
+        padding: 5px;
+    }
+
+    .projects .portfolio .box{
+        min-width: 250px;
+        height: auto;
+        background-color: white;
+        padding: 10px;
+
+    }
+    .projects .portfolio .grid-text {
+        text-align: center;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .projects .portfolio .description {
+        text-align: center;
+        color: black;
+        line-height: 1.3rem;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .projects .portfolio .tag {
+        text-align: center;
+    }
+    
+    .projects .portfolio a {
+        color: rgb(222, 139, 222);
+        font-size: 10px;
     }
 
     .contact form .input-box .input-field{
@@ -756,13 +915,9 @@ span{
         text-align: center;
     }
 
+  
+
     .home-content h1{
         font-size: 5rem;
-    }
-}
-
-@keyframes showRight{
-    100%{
-        width:0;
     }
 }
